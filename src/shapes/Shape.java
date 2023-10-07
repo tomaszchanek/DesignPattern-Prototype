@@ -1,6 +1,6 @@
 package shapes;
 
-abstract public class Shape {
+abstract public class Shape implements Cloneable {
     public int x;
     public int y;
     public String color;
